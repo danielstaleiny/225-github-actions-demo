@@ -15,3 +15,8 @@ jobs:
           node-version: 14
       - run: npm ci
       - run: npm run build
+        - name: Deploy to GitHub Pages
+          uses: JamesIves/github-pages-deploy-action@4.1.4
+          with:
+            branch: master
+            folder: public
