@@ -1,6 +1,7 @@
 name: Rebuild project on schedule
 
 on:
+  push:
   schedule:
     - cron: '*/5 * * * *'
 
