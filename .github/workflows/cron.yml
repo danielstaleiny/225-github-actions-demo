@@ -1,9 +1,9 @@
 name: Rebuild project on schedule
 
-on:
-  push:
-  schedule:
-    - cron: '0 */4 * * *'
+# on:
+#   push:
+#   schedule:
+#     - cron: '0 */4 * * *'
 
 
 jobs:
